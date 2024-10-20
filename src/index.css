@@ -1,0 +1,109 @@
+*{
+    font-weight: normal !important;
+  }
+  a, a:link, a:hover, a:visited {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  body {
+   background: #606c88;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #3f4c6b, #606c88);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #3f4c6b, #606c88); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+  }
+  
+  .card {
+    padding: 5px 10px;
+    margin-top: 15px;
+    background-color: whitesmoke;
+    border-left: 4px solid rgba(0, 0, 0, 0);
+    border-radius: 5px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  }
+  
+  .card:hover {
+    border-color: #FF7043;
+    -webkit-transition: all .5s ease .4s;
+    -moz-transition: all .5s ease .4s;
+    transition: all .5s ease .4s;
+  }
+  
+  .error {
+    color: #F04903;
+    text-align: center;
+  }
+  
+  .searchWrapper {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .searchBar {
+    width: 200px;
+    height: 40px;
+    margin-left: 20px;
+    position: relative;
+  }
+  
+  #searchBox {
+    width: 200px;
+    height: 40px;
+    padding-right: 20px;
+  }
+  
+  #searchIcon {
+    position: absolute;
+    top: 2px;
+    right: 3px;
+    margin-right: 10px;
+    z-index: 1;
+    color: #D2D7D3;
+  }
+  
+  #searchIcon:hover {
+    cursor: pointer;
+  }
+  
+  .imgMain {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .imgMain>img {
+    width: 15%;
+  }
+  
+  .imgMain>h2 {
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+  }
+  
+  p.details{
+    margin-bottom: 0;
+  }
+  
+  #searchBox:hover {
+    outline-width: 3px;
+    outline-color: #FF7043;
+  }
+  
+  #randomButton {
+    background-color: #FF7043;
+    color:white;
+    outline:0;
+    border:0;
+   }
+  
+  @media (max-width: 550px) {
+    .imgMain>img {
+      width: 40%;
+    }
+  }
+
+  input[type=text]::-ms-clear {  display: none; width : 0; height: 0; }
+input[type=text]::-ms-reveal {  display: none; width : 0; height: 0; }
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-results-button,
+input[type="search"]::-webkit-search-results-decoration { display: none; }
